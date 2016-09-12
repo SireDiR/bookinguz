@@ -2,7 +2,8 @@ group 'ua.org.uz.booking'
 version '1.0'
 
 apply plugin: 'java'
-
+apply plugin: 'application'
+mainClassName = 'UzBuy'
 sourceCompatibility = 1.8
 
 repositories {
