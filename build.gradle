@@ -1,0 +1,15 @@
+group 'ua.org.uz.booking'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.testng:testng:6.9.12'
+    compile 'com.codeborne:selenide:3.9.2'
+}
